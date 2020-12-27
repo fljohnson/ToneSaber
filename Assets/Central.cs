@@ -4,9 +4,12 @@ using UnityEngine;
 using static UnityEngine.InputSystem.InputAction;
 using UnityEngine.InputSystem.Controls;
 using UnityEngine.Assertions;
+using Xml2CSharp;
+using System.IO;
 
 public class Central : MonoBehaviour
 {
+	private Scorepartwise me;
 	public Camera mainCamera;
 	private Vector2? priorPos;
 	private bool inDrag = false;
@@ -16,6 +19,7 @@ public class Central : MonoBehaviour
     {
 		Assert.IsNotNull(mainCamera,"Blew it getting camera");
 		mainCamera.GetComponent<Rigidbody>().velocity=new Vector3(0,0,2f);
+		LoadStaff();
     }
 
     // Update is called once per frame
@@ -64,4 +68,26 @@ public class Central : MonoBehaviour
 	}
 	
 	//C4 is middle C, A4 is 440 Hz, Treble Staff goes from C4 (one leger line below bottommost line) to B5, Bass Staff goes from G2 (bottommost line) to B3 pokes above top line
+	
+	void LoadStaff() {
+		//List<Note> netnotes=
+		me = Staff.Load(Path.Combine(Application.dataPath, "Songs/scaly.musicxml"));
+		foreach(Measure m in me.Part.Measure) {
+			if(m.Note.Count == 0) {
+				continue;
+			}
+			foreach(Note la in m.Note) {
+				if(la.Rest == null) {
+					Debug.Log(la.Type+" note:"+la.Pitch.Step+la.Pitch.Octave);
+				}
+				else {
+					Debug.Log(la.Type+" rest:");
+				}
+			}
+			if(m.Number == "3") {
+				break;
+			}
+		}
+		Debug.Log(me.Part.Measure.Count);
+	}
 }
