@@ -14,13 +14,17 @@ public class Central : MonoBehaviour
 	private Vector2? priorPos;
 	private bool inDrag = false;
 	public int score;
-    // Start is called before the first frame update
-    void Start()
+	
+	
+
+	// Start is called before the first frame update
+	void Start()
     {
 		Assert.IsNotNull(mainCamera,"Blew it getting camera");
 		mainCamera.GetComponent<Rigidbody>().velocity=new Vector3(0,0,2f);
 		LoadStaff();
-    }
+		
+	}
 
     // Update is called once per frame
     void Update()
@@ -51,6 +55,7 @@ public class Central : MonoBehaviour
             ToneTarget hittee = objectHit.GetComponent<ToneTarget>();
             if(hittee != null) {
 				score+=Whack(hittee);
+				
 			}
         }
 		priorPos = pos;
@@ -60,10 +65,14 @@ public class Central : MonoBehaviour
 		ButtonControl b = context.control as ButtonControl;
 		inDrag = b.isPressed;
 	}
-	
+
+
 	int Whack(ToneTarget hitTarget) {
 		int augend = hitTarget.points;
 		hitTarget.Play();
+		hitTarget.setUserDestroy(true);
+		//Debug.Log("block broken");
+		
 		return augend;
 	}
 	
@@ -78,16 +87,16 @@ public class Central : MonoBehaviour
 			}
 			foreach(Note la in m.Note) {
 				if(la.Rest == null) {
-					Debug.Log(la.Type+" note:"+la.Pitch.Step+la.Pitch.Octave);
+					//Debug.Log(la.Type+" note:"+la.Pitch.Step+la.Pitch.Octave);
 				}
 				else {
-					Debug.Log(la.Type+" rest:");
+					//Debug.Log(la.Type+" rest:");
 				}
 			}
 			if(m.Number == "3") {
 				break;
 			}
 		}
-		Debug.Log(me.Part.Measure.Count);
+		//Debug.Log(me.Part.Measure.Count);
 	}
 }

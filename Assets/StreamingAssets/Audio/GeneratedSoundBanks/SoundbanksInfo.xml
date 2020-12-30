@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>/Users/juliemclaughlin/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Volumes/Julie's Hardrive/ToneSaber/ToneSaber/ToneSaber_WwiseProject/</ProjectRoot>
+		<SourceFilesRoot>/Users/juliemclaughlin/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Volumes/Julie's Hardrive/ToneSaber/ToneSaber/ToneSaber_WwiseProject/.cache/Mac/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/juliemclaughlin/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Volumes/Julie's Hardrive/ToneSaber/ToneSaber/Assets/StreamingAssets/Audio/GeneratedSoundBanks/</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>/Users/juliemclaughlin/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Volumes/Julie's Hardrive/ToneSaber/ToneSaber/ToneSaber_WwiseProject/GeneratedSoundBanks/Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<IncludedAuxBusses>
+				<AuxBus Id="3657263530" Name="VERB" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\VERB"/>
+			</IncludedAuxBusses>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3582955829" Name="blockbreak" ObjectPath="\Events\Default Work Unit\blockbreak" DurationType="OneShot" DurationMin="1.714286" DurationMax="1.714286">
+					<IncludedMemoryFiles>
+						<File Id="9247957" Language="SFX">
+							<ShortName>GuitarDemo\Block6.wav</ShortName>
+							<Path>SFX/GuitarDemo/Block6_10C4C929.wem</Path>
+						</File>
+						<File Id="39087884" Language="SFX">
+							<ShortName>GuitarDemo\Block7.wav</ShortName>
+							<Path>SFX/GuitarDemo/Block7_10C4C929.wem</Path>
+						</File>
+						<File Id="40430355" Language="SFX">
+							<ShortName>PianoDemo\Block1.wav</ShortName>
+							<Path>SFX/PianoDemo/Block1_10C4C929.wem</Path>
+						</File>
+						<File Id="620023498" Language="SFX">
+							<ShortName>GuitarDemo\Block8.wav</ShortName>
+							<Path>SFX/GuitarDemo/Block8_10C4C929.wem</Path>
+						</File>
+						<File Id="679627727" Language="SFX">
+							<ShortName>Block4.wav</ShortName>
+							<Path>SFX/Block4_10C4C929.wem</Path>
+						</File>
+						<File Id="788470130" Language="SFX">
+							<ShortName>PianoDemo\Block3.wav</ShortName>
+							<Path>SFX/PianoDemo/Block3_10C4C929.wem</Path>
+						</File>
+						<File Id="891864748" Language="SFX">
+							<ShortName>GuitarDemo\Block5.wav</ShortName>
+							<Path>SFX/GuitarDemo/Block5_10C4C929.wem</Path>
+						</File>
+						<File Id="941302719" Language="SFX">
+							<ShortName>PianoDemo\Block2.wav</ShortName>
+							<Path>SFX/PianoDemo/Block2_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{DDF18B2B-9A73-4F26-A5EF-7F94875B02E6}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{8ECF343A-C3E2-4422-A585-45BDE151891A}">
+							<Media>
+								<File Id="891864748"/>
+								<File Id="9247957"/>
+								<File Id="39087884"/>
+								<File Id="620023498"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{DDF18B2B-9A73-4F26-A5EF-7F94875B02E6}">
+							<Media>
+								<File Id="40430355"/>
+								<File Id="941302719"/>
+								<File Id="788470130"/>
+								<File Id="679627727"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+					<AuxBusSends>
+						<AuxBus Id="3657263530" Name="VERB" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\VERB"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="3991942870" Name="Music" ObjectPath="\Events\Music Work Unit\Music" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="530344217" Language="SFX">
+							<ShortName>Jazzintro5m_p1_140bpm_44.wav</ShortName>
+							<Path>SFX/Jazzintro5m_p1_140bpm_44_D79FB2B7.wem</Path>
+						</File>
+						<File Id="732850195" Language="SFX">
+							<ShortName>Rock4m_140bpm_44.wav</ShortName>
+							<Path>SFX/Rock4m_140bpm_44_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{DDF18B2B-9A73-4F26-A5EF-7F94875B02E6}">
+							<Media>
+								<File Id="530344217"/>
+								<File Id="530344217"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{8ECF343A-C3E2-4422-A585-45BDE151891A}">
+							<Media>
+								<File Id="732850195"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="530344217" Language="SFX">
+					<ShortName>Jazzintro5m_p1_140bpm_44.wav</ShortName>
+					<Path>SFX/Jazzintro5m_p1_140bpm_44_D79FB2B7.wem</Path>
+				</File>
+				<File Id="732850195" Language="SFX">
+					<ShortName>Rock4m_140bpm_44.wav</ShortName>
+					<Path>SFX/Rock4m_140bpm_44_D79FB2B7.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+			<SwitchGroups>
+				<SwitchGroup Id="3991942870" Name="Music" ObjectPath="\Switches\Default Work Unit\Music">
+					<Switches>
+						<Switch Id="3982678634" Name="Jazz" ObjectPath="\Switches\Default Work Unit\Music\Jazz"/>
+						<Switch Id="2144363834" Name="Rock" ObjectPath="\Switches\Default Work Unit\Music\Rock"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

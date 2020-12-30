@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{BC0EF5E9-BD96-4C74-BE7F-12528BBF6745}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{BC0EF5E9-BD96-4C74-BE7F-12528BBF6745}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="blockbreak" ID="{92810682-4667-4D94-A6F9-317BDC7EE5DE}">
+					<ChildrenList>
+						<Action Name="" ID="{A30E941D-4F13-49F0-96F5-0CDE129C488F}" ShortID="38574287">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="blockbreak" ID="{72EB2DA4-FA6E-4757-8348-6BAEF0692939}" WorkUnitID="{79D59DA0-6CCF-4061-ADA4-1B0459DE0764}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

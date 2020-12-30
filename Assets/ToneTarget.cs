@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.VersionControl;
 using UnityEngine;
 using UnityEngine.Assertions;
 
@@ -35,10 +36,12 @@ public class ToneTarget : MonoBehaviour
 	private AudioSource notePlayer;
 	private ParticleSystem glitters;
 	private bool shuttingDown =false;
-	
-	
-    // Start is called before the first frame update
-    void Start()
+	private bool userDestroy = false;
+	public int toneTargetThreshold = 4;
+
+
+	// Start is called before the first frame update
+	void Start()
     {
 		
 		materials.Add(Resources.Load("Materials/Eighthnote") as Material);
@@ -48,7 +51,8 @@ public class ToneTarget : MonoBehaviour
         notePlayer = GetComponent<AudioSource>();
         SetKeyAndOctave(keyAndOctave);
         SetDuration(xthNote);
-    }
+		AkSoundEngine.SetSwitch("Music", "jazz", Music);
+	}
 
     // Update is called once per frame
     void Update()
@@ -57,12 +61,30 @@ public class ToneTarget : MonoBehaviour
 			Decrement();
 		}
 		if(shuttingDown) {
-			if(glitters.isStopped) {				
+			if(glitters.isStopped) {
 				Destroy(gameObject);
+                ScoreManager.increaseScore(1);
+				Debug.Log("Curr Score: " + ScoreManager.getScore());
+				CheckfortoneTargetHit();
+				
 			}
 		}
     }
+
+	
+
     
+    private void OnDestroy()
+    {
+        if (userDestroy) {
+            Debug.Log("destory even test");
+            //event here
+            //AkSoundEngine.PostEvent("blockbreak", gameObject);
+
+        }
+
+	}
+
     public void SetKeyAndOctave(string setting) {
 		string intermediate = setting.ToUpper();
 		
@@ -101,9 +123,23 @@ public class ToneTarget : MonoBehaviour
 		//var  mein = glitters.main;
 		//mein.duration = duration;
 	}
-	
-	
-	
+
+	public GameObject Music;
+	public void CheckfortoneTargetHit()
+	{
+		if (ScoreManager.getScore() > toneTargetThreshold)
+		{
+			AkSoundEngine.SetSwitch("Music", "jazz", Music);
+
+		}
+		if (ScoreManager.getScore() >= toneTargetThreshold)
+		{
+			//fix this
+			AkSoundEngine.SetSwitch("Music", "rock", Music);
+
+		}
+	}
+
 	public void Play() {
 		if(shuttingDown) {
 			return;
@@ -116,9 +152,19 @@ public class ToneTarget : MonoBehaviour
 		if(noteSound != null) {
 			notePlayer.clip = noteSound;
 			notePlayer.Play();
+			AkSoundEngine.PostEvent("blockbreak", gameObject);
+			//Debug.Log("destory even test");
 		}
 	}
+
+	public void setUserDestroy(bool i)
+    {
+		userDestroy = i;
+		
+    }
+
 	
+
 	private void Decrement() {
 		tMinus -= Time.deltaTime;
 		if(tMinus <= 0f) {

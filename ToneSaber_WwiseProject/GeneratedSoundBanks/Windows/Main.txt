@@ -1,0 +1,23 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3582955829	blockbreak			\Default Work Unit\blockbreak	
+	3991942870	Music			\Music Work Unit\Music	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	3991942870	Music			\Default Work Unit\Music	
+
+Switch	ID	Name	Switch Group			Notes
+	2144363834	Rock	Music			
+	3982678634	Jazz	Music			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	9247957	Block6	Z:\Volumes\Julie's Hardrive\ToneSaber\ToneSaber\ToneSaber_WwiseProject\.cache\Windows\SFX\GuitarDemo\Block6_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\blockbreak\GuitarDemo\Block6		302464
+	39087884	Block7	Z:\Volumes\Julie's Hardrive\ToneSaber\ToneSaber\ToneSaber_WwiseProject\.cache\Windows\SFX\GuitarDemo\Block7_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\blockbreak\GuitarDemo\Block7		302464
+	40430355	Block1	Z:\Volumes\Julie's Hardrive\ToneSaber\ToneSaber\ToneSaber_WwiseProject\.cache\Windows\SFX\PianoDemo\Block1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\blockbreak\PianoDemo\Block1		302464
+	530344217	Jazzintro5m_p1_140bpm_44	Z:\Volumes\Julie's Hardrive\ToneSaber\ToneSaber\ToneSaber_WwiseProject\.cache\Windows\SFX\Jazzintro5m_p1_140bpm_44_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MusicDemo\Jazz\Jazzintro5m_p1_140bpm_44\Jazzintro5m_p1_140bpm_44		1512064
+	620023498	Block8	Z:\Volumes\Julie's Hardrive\ToneSaber\ToneSaber\ToneSaber_WwiseProject\.cache\Windows\SFX\GuitarDemo\Block8_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\blockbreak\GuitarDemo\Block8		302464
+	679627727	Block4	Z:\Volumes\Julie's Hardrive\ToneSaber\ToneSaber\ToneSaber_WwiseProject\.cache\Windows\SFX\Block4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\blockbreak\PianoDemo\Block4		302464
+	732850195	Rock4m_140bpm_44	Z:\Volumes\Julie's Hardrive\ToneSaber\ToneSaber\ToneSaber_WwiseProject\.cache\Windows\SFX\Rock4m_140bpm_44_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MusicDemo\Rock\Rock4m_140bpm_44\Rock4m_140bpm_44		1209664
+	788470130	Block3	Z:\Volumes\Julie's Hardrive\ToneSaber\ToneSaber\ToneSaber_WwiseProject\.cache\Windows\SFX\PianoDemo\Block3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\blockbreak\PianoDemo\Block3		302464
+	891864748	Block5	Z:\Volumes\Julie's Hardrive\ToneSaber\ToneSaber\ToneSaber_WwiseProject\.cache\Windows\SFX\GuitarDemo\Block5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\blockbreak\GuitarDemo\Block5		302464
+	941302719	Block2	Z:\Volumes\Julie's Hardrive\ToneSaber\ToneSaber\ToneSaber_WwiseProject\.cache\Windows\SFX\PianoDemo\Block2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\blockbreak\PianoDemo\Block2		302464
+

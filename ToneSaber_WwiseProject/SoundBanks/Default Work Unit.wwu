@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F35A80C1-D9FA-4131-9527-1D9FB5359BD5}" SchemaVersion="97">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{F35A80C1-D9FA-4131-9527-1D9FB5359BD5}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{008286EA-0CAC-40F9-863C-7F4964B3A00C}">
+					<ObjectInclusionList>
+						<ObjectRef Name="MusicDemo" ID="{8C9C4B4B-5F2F-438D-8B5C-1B8C70398EF7}" WorkUnitID="{29143AB5-29D2-46A5-B875-7F9424805459}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Music" ID="{A585F65A-1BEF-4615-8F8B-B5F6F2CB7656}" WorkUnitID="{B8F4C89A-F05C-4A4C-AC10-826F76A8F2A4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Music Work Unit" ID="{B8F4C89A-F05C-4A4C-AC10-826F76A8F2A4}" WorkUnitID="{B8F4C89A-F05C-4A4C-AC10-826F76A8F2A4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Default Work Unit" ID="{BC0EF5E9-BD96-4C74-BE7F-12528BBF6745}" WorkUnitID="{BC0EF5E9-BD96-4C74-BE7F-12528BBF6745}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="blockbreak" ID="{92810682-4667-4D94-A6F9-317BDC7EE5DE}" WorkUnitID="{BC0EF5E9-BD96-4C74-BE7F-12528BBF6745}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

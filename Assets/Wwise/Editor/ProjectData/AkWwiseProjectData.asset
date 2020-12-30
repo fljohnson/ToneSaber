@@ -1,0 +1,193 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8de5becb5a0847769d9580ef7c06ce4, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 1696771e71fc4c4ba0b24b2f72a6f784
+    GuidInternal: 
+    m_lastTime: -8585924741564775808
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 3011ede51d2e4944bfd6f14298025af9
+    GuidInternal: 
+    m_lastTime: -8585924668824775808
+    List:
+    - name: Master Audio Bus
+      guid: d8a41415a61d2a41a17e75ca0c2149f3
+      id: 3803692087
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      Path: Default Work Unit/Master Audio Bus
+    - name: VERB
+      guid: 7d92bcd7644c6d47a117895abd579980
+      id: 3657263530
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: VERB
+        ObjectType: 1
+      Path: Default Work Unit/Master Audio Bus/VERB
+  BankWwu:
+  - PhysicalPath: SoundBanks/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: c1805af3fad9314195271d9fb5359bd5
+    GuidInternal: 
+    m_lastTime: -8585923870934775808
+    List:
+    - name: Main
+      guid: ea868200ac0cf940863c7f4964b3a00c
+      id: 3161908922
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Main
+        ObjectType: 7
+      Path: Default Work Unit/Main
+  EventWwu:
+  - PhysicalPath: Events/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: e9f50ebc96bd744cbe7f12528bbf6745
+    GuidInternal: 
+    m_lastTime: -8585923883514775808
+    List:
+    - name: blockbreak
+      guid: 820681926746944da6f9317bdc7ee5de
+      id: 3582955829
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: blockbreak
+        ObjectType: 3
+      Path: Default Work Unit/blockbreak
+      maxAttenuation: 0
+      maxDuration: 1.714286
+      minDuration: 1.714286
+  - PhysicalPath: Events/Music Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Music Work Unit
+      ObjectType: 12
+    ParentPath: Music Work Unit
+    guid: 9ac8f4b85cf04c4aac10826f76a8f2a4
+    GuidInternal: 
+    m_lastTime: -8585923883514775808
+    List:
+    - name: Music
+      guid: 5af685a5ef1b15468f8bb5f6f2cb7656
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Music Work Unit
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 3
+      Path: Music Work Unit/Music
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+  RtpcWwu:
+  - PhysicalPath: Game Parameters/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: ae047a5c2083fa4db46fb443313a2c72
+    GuidInternal: 
+    m_lastTime: -8585924741564775808
+    List: []
+  StateWwu:
+  - PhysicalPath: States/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 11ee29415c9d2b408a484ce479f80bbc
+    GuidInternal: 
+    m_lastTime: -8585924741564775808
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 6f21f791da772b48adf708655fd1be68
+    GuidInternal: 
+    m_lastTime: -8585923917494775808
+    List:
+    - name: Music
+      guid: 99b154bd0a718948b2de00e219a3d628
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 11
+      Path: Default Work Unit/Music
+      values:
+      - name: Jazz
+        guid: 2b8bf1dd739a264fa5ef7f94875b02e6
+        id: 3982678634
+        PathAndIcons:
+        - ElementName: Jazz
+          ObjectType: 10
+      - name: Rock
+        guid: 3a34cf8ee2c32244a58545bde151891a
+        id: 2144363834
+        PathAndIcons:
+        - ElementName: Rock
+          ObjectType: 10
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  TriggerWwu:
+  - PhysicalPath: Triggers/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 9d129ca88a717044a6852cfabe445e62
+    GuidInternal: 
+    m_lastTime: -8585924741564775808
+    List: []
+  ExpandedItems:
+  - /ToneSaber_WwiseProject
+  - /ToneSaber_WwiseProject/Events
+  - /ToneSaber_WwiseProject/Events/Default Work Unit
+  - /ToneSaber_WwiseProject/Events/Music Work Unit
+  - /ToneSaber_WwiseProject/SoundBanks
+  - /ToneSaber_WwiseProject/SoundBanks/Default Work Unit
+  - /ToneSaber_WwiseProject/Switches
+  - /ToneSaber_WwiseProject/Switches/Default Work Unit
+  - /ToneSaber_WwiseProject/Switches/Default Work Unit/Music
+  autoPopulateEnabled: 1
+  CurrentPluginConfig: 

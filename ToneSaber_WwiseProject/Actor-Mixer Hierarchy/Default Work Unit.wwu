@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{79D59DA0-6CCF-4061-ADA4-1B0459DE0764}" SchemaVersion="97">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{79D59DA0-6CCF-4061-ADA4-1B0459DE0764}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchContainer Name="blockbreak" ID="{72EB2DA4-FA6E-4757-8348-6BAEF0692939}" ShortID="420709084">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F6AE0742-AEAF-4C3D-BB32-CA49E616A15E}"/>
+						</Reference>
+						<Reference Name="DefaultSwitchOrState">
+							<ObjectRef Name="Jazz" ID="{DDF18B2B-9A73-4F26-A5EF-7F94875B02E6}" WorkUnitID="{91F7216F-77DA-482B-ADF7-08655FD1BE68}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5ED1130-2E1D-4449-BFD6-F14298025AF9}"/>
+						</Reference>
+						<Reference Name="SwitchGroupOrStateGroup">
+							<ObjectRef Name="Music" ID="{BD54B199-710A-4889-B2DE-00E219A3D628}" WorkUnitID="{91F7216F-77DA-482B-ADF7-08655FD1BE68}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="GuitarDemo" ID="{18D22B25-EB52-4D8C-98BE-D4486D5E0DCD}" ShortID="1512210">
+							<PropertyList>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F6AE0742-AEAF-4C3D-BB32-CA49E616A15E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5ED1130-2E1D-4449-BFD6-F14298025AF9}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="VERB" ID="{D7BC927D-4C64-476D-A117-895ABD579980}" WorkUnitID="{E5ED1130-2E1D-4449-BFD6-F14298025AF9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Block5" ID="{5677A070-7850-4A58-AAFC-71B8AC60DD30}" ShortID="856809502">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F6AE0742-AEAF-4C3D-BB32-CA49E616A15E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5ED1130-2E1D-4449-BFD6-F14298025AF9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Block5" ID="{C2E4D641-3190-4067-AA86-A9C6C37972E8}">
+											<Language>SFX</Language>
+											<AudioFile>GuitarDemo\Block5.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="891864748"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Block5" ID="{C2E4D641-3190-4067-AA86-A9C6C37972E8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Block6" ID="{857968A4-6202-495A-B91E-36C2D9D4A3E1}" ShortID="802314172">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F6AE0742-AEAF-4C3D-BB32-CA49E616A15E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5ED1130-2E1D-4449-BFD6-F14298025AF9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Block6" ID="{5E23AA86-E848-474B-9B3B-1E506A71BF2F}">
+											<Language>SFX</Language>
+											<AudioFile>GuitarDemo\Block6.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="9247957"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Block6" ID="{5E23AA86-E848-474B-9B3B-1E506A71BF2F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Block7" ID="{1C6AC7BA-89E1-4ED4-9B1B-87341AC7AC91}" ShortID="428034939">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F6AE0742-AEAF-4C3D-BB32-CA49E616A15E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5ED1130-2E1D-4449-BFD6-F14298025AF9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Block7" ID="{5D33C41F-C0C9-49B9-979D-08AB22A99CFC}">
+											<Language>SFX</Language>
+											<AudioFile>GuitarDemo\Block7.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="39087884"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Block7" ID="{5D33C41F-C0C9-49B9-979D-08AB22A99CFC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Block8" ID="{6ECA92D4-46FD-489A-B641-7346283FDF49}" ShortID="930709429">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F6AE0742-AEAF-4C3D-BB32-CA49E616A15E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5ED1130-2E1D-4449-BFD6-F14298025AF9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Block8" ID="{7ADEDE27-E49E-4D2E-9F27-AAF35B538B75}">
+											<Language>SFX</Language>
+											<AudioFile>GuitarDemo\Block8.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="620023498"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Block8" ID="{7ADEDE27-E49E-4D2E-9F27-AAF35B538B75}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<Playlist>
+								<ItemRef Name="Block5" ID="{5677A070-7850-4A58-AAFC-71B8AC60DD30}"/>
+								<ItemRef Name="Block6" ID="{857968A4-6202-495A-B91E-36C2D9D4A3E1}"/>
+								<ItemRef Name="Block7" ID="{1C6AC7BA-89E1-4ED4-9B1B-87341AC7AC91}"/>
+								<ItemRef Name="Block8" ID="{6ECA92D4-46FD-489A-B641-7346283FDF49}"/>
+							</Playlist>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="PianoDemo" ID="{B1E0089C-9F9A-40E8-A98E-9925D3A9934A}" ShortID="112880447">
+							<PropertyList>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F6AE0742-AEAF-4C3D-BB32-CA49E616A15E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5ED1130-2E1D-4449-BFD6-F14298025AF9}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="VERB" ID="{D7BC927D-4C64-476D-A117-895ABD579980}" WorkUnitID="{E5ED1130-2E1D-4449-BFD6-F14298025AF9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Block1" ID="{E234FBCA-F57F-4803-8CC5-8FDEA0FA3AAA}" ShortID="325278101">
+									<PropertyList>
+										<Property Name="3DPosition" Type="int16" Value="1"/>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="35"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F6AE0742-AEAF-4C3D-BB32-CA49E616A15E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5ED1130-2E1D-4449-BFD6-F14298025AF9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Block1" ID="{B2E3D109-2E5F-4D41-8FDD-C822B8F86938}">
+											<Language>SFX</Language>
+											<AudioFile>PianoDemo\Block1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="40430355"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<PositioningInfo>
+										<Position Name="" ID="{F253C864-A98B-46B1-9628-D6C1E5B51E14}">
+											<ChildrenList>
+												<Path2D Name="Block1_Path" ID="{47FE55D1-29E7-4F96-86A6-F723D61C1285}">
+													<PointList>
+														<Point>
+															<XPos>-41.13924</XPos>
+															<YPos>37.89809</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+											</ChildrenList>
+										</Position>
+									</PositioningInfo>
+									<ActiveSourceList>
+										<ActiveSource Name="Block1" ID="{B2E3D109-2E5F-4D41-8FDD-C822B8F86938}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Block2" ID="{5DF73E55-0F61-4AA6-B158-B81AFD577AD6}" ShortID="408562270">
+									<PropertyList>
+										<Property Name="3DPosition" Type="int16" Value="1"/>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="35"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F6AE0742-AEAF-4C3D-BB32-CA49E616A15E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5ED1130-2E1D-4449-BFD6-F14298025AF9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Block2" ID="{C9B1B2DE-E79C-480A-926A-36954E616AB7}">
+											<Language>SFX</Language>
+											<AudioFile>PianoDemo\Block2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="941302719"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<PositioningInfo>
+										<Position Name="" ID="{7559C743-4FE3-4078-BFCD-23E00DBD8236}">
+											<ChildrenList>
+												<Path2D Name="Block2_Path" ID="{56DF647D-7D93-49F9-BF72-95805FD2B18B}">
+													<PointList>
+														<Point>
+															<XPos>39.87342</XPos>
+															<YPos>33.43949</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+											</ChildrenList>
+										</Position>
+									</PositioningInfo>
+									<ActiveSourceList>
+										<ActiveSource Name="Block2" ID="{C9B1B2DE-E79C-480A-926A-36954E616AB7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Block3" ID="{9312AE05-97F9-420B-A69C-6D52C311E965}" ShortID="278225165">
+									<PropertyList>
+										<Property Name="3DPosition" Type="int16" Value="1"/>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="35"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F6AE0742-AEAF-4C3D-BB32-CA49E616A15E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5ED1130-2E1D-4449-BFD6-F14298025AF9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Block3" ID="{91E04977-2025-4DD4-9D81-32AEECA209CE}">
+											<Language>SFX</Language>
+											<AudioFile>PianoDemo\Block3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="788470130"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<PositioningInfo>
+										<Position Name="" ID="{FBB8F4FE-45A5-4098-9AB4-C1FFAF11D77D}">
+											<ChildrenList>
+												<Path2D Name="Block3_Path" ID="{D34519D5-0BDE-462B-B90B-08C1674B1ED0}">
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>44.26752</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+											</ChildrenList>
+										</Position>
+									</PositioningInfo>
+									<ActiveSourceList>
+										<ActiveSource Name="Block3" ID="{91E04977-2025-4DD4-9D81-32AEECA209CE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Block4" ID="{BEEBF71C-A3D0-49C8-A3FD-651D36EAD614}" ShortID="59393819">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F6AE0742-AEAF-4C3D-BB32-CA49E616A15E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5ED1130-2E1D-4449-BFD6-F14298025AF9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Block4" ID="{7D1AC3F6-E3D1-4DCA-9521-9F79BBBCE7B5}">
+											<Language>SFX</Language>
+											<AudioFile>Block4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="679627727"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Block4" ID="{7D1AC3F6-E3D1-4DCA-9521-9F79BBBCE7B5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<Playlist>
+								<ItemRef Name="Block1" ID="{E234FBCA-F57F-4803-8CC5-8FDEA0FA3AAA}"/>
+								<ItemRef Name="Block2" ID="{5DF73E55-0F61-4AA6-B158-B81AFD577AD6}"/>
+								<ItemRef Name="Block3" ID="{9312AE05-97F9-420B-A69C-6D52C311E965}"/>
+							</Playlist>
+						</RandomSequenceContainer>
+					</ChildrenList>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="GuitarDemo" ID="{18D22B25-EB52-4D8C-98BE-D4486D5E0DCD}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="PianoDemo" ID="{B1E0089C-9F9A-40E8-A98E-9925D3A9934A}"/>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+						<GroupingList>
+							<Grouping>
+								<SwitchRef Name="Jazz" ID="{DDF18B2B-9A73-4F26-A5EF-7F94875B02E6}"/>
+								<ItemList>
+									<ItemRef Name="PianoDemo" ID="{B1E0089C-9F9A-40E8-A98E-9925D3A9934A}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Rock" ID="{8ECF343A-C3E2-4422-A585-45BDE151891A}"/>
+								<ItemList>
+									<ItemRef Name="GuitarDemo" ID="{18D22B25-EB52-4D8C-98BE-D4486D5E0DCD}"/>
+								</ItemList>
+							</Grouping>
+						</GroupingList>
+					</GroupingInfo>
+				</SwitchContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
